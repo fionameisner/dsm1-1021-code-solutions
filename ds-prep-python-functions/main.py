@@ -1,4 +1,4 @@
-def bool_to_int(value): return  1 if value == True else 2
+def bool_to_int(value): return  1 if value == True else 0
 print(bool_to_int(value=True))
 
 def get_smaller(a, b): return min(a, b)
