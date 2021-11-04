@@ -1,4 +1,4 @@
-bool_to_int = lambda value: 1 if value == True else 2
+bool_to_int = lambda value: 1 if value == True else 0
 print(bool_to_int(value=True))
 
 get_smaller = lambda a,b: min(a,b)
