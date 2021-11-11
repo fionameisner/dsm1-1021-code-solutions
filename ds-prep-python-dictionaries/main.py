@@ -11,7 +11,7 @@ print(first_name, middle_name, last_name)
 person['job'] = 'secretary'
 print(person['job'])
 
-person.update({'hobby': 'Painting'})
+person['hobby']= 'Painting'
 print(person['hobby'])
 
 person.pop('last_name')
