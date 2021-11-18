@@ -16,28 +16,13 @@ if 'male' in passenger:
   is_male = False
 else:
   is_male = False
-print(is_female + is_male)
+print(is_female , is_male)
 
-def get_survival_info(passenger):
-  (id,survived,name,gender,age) = passenger
+def get_survival_info(id,survived,name,gender,age):
   passenger = (age,gender,survived)
-  return passenger
-print(get_survival_info(passenger))
+  print(passenger)
+passenger1 = get_survival_info(11, True, "Sandstrom, Miss. Marguerite Rut", "female", 4)
 
-def get_survival_info(passenger):
-  (age, survived, name, gender, age) = passenger
-  passenger = (11, True, "Sandstrom, Miss. Marguerite Rut", "female", 4)
-  return passenger
-print(get_survival_info(passenger))
+passenger2 = get_survival_info(28, False, "Fortune, Mr. Charles Alexander", "male", 19)
 
-def get_survival_info(passenger):
-  (id,survived,name,gender,age) = passenger
-  passenger = (28, False, "Fortune, Mr. Charles Alexander", "male", 19)
-  return passenger
-print(get_survival_info(passenger))
-
-def get_survival_info(passenger):
-  (id,survived,name,gender,age) = passenger
-  passenger = (51, False, "Panula, Master. Juha Niilo", "male", 7)
-  return passenger
-print(get_survival_info(passenger))
+passenger3 = get_survival_info(51, False, "Panula, Master. Juha Niilo", "male", 7)
